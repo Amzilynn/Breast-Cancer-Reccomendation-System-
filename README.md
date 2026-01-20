@@ -22,3 +22,21 @@ and produces explainable, evidence-based recommendations.
 - Generate personalized and explainable recommendations
 
 ---
+## High-Level Pipeline
+
+Patient Biomarker Profile
+        |
+        v
+Content-Based Analysis
+(Z-scores, deviation labels)
+        |
+        v
+Cluster Assignment
+(K-Means, severity context)
+        |
+        v
+Knowledge-Based Reasoning
+(If–then rules, medical guidelines)
+        |
+        v
+Personalized Recommendations
