@@ -40,3 +40,71 @@ Knowledge-Based Reasoning
         |
         v
 Personalized Recommendations
+
+
+---
+
+## Theoretical Framework
+
+### Content-Based Component
+
+- Uses statistical comparison against a healthy baseline
+- Computes Z-scores for each biomarker
+- Assigns deviation labels (low / normal / high)
+- Builds a per-patient deviation profile
+
+### Severity Context (Clustering)
+
+- Applies K-Means clustering to cancer patients
+- Uses K = 3 to represent different metabolic severity patterns
+- Each cluster represents a distinct metabolic phenotype
+
+### Knowledge-Based Component
+
+- Encodes clinical expertise as explicit rules
+- Combines cluster membership and biomarker deviations
+- Produces explainable and medically grounded recommendations
+
+---
+
+## Dataset
+
+**Coimbra Breast Cancer Dataset**
+
+- Total samples: 116
+- Biomarkers: 9 metabolic features
+- Class distribution:
+  - Class 1: Healthy patients (52)
+  - Class 2: Breast cancer patients (64)
+
+---
+
+## Key Features
+
+- Hybrid AI approach (statistical + symbolic)
+- Explainable decision-making
+- Severity-aware personalization
+- Clinically interpretable outputs
+- Modular and extensible design
+
+---
+
+## Future Work
+
+- Add additional clinical variables
+- Validate rules with medical experts
+- Support longitudinal patient monitoring
+
+---
+
+## Disclaimer
+
+This project is intended for research and decision-support purposes only.
+It does not replace professional medical diagnosis or clinical judgment.
+
+---
+
+## Author
+
+El Jazi Amal
+
